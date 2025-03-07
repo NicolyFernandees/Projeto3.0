@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(220, 213, 226);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.topo{ /* class somente */
+    background-color: rgb(52, 52, 133);
+    color:rgb(52, 52, 133)
+}
+
+#topo{ /* id dentro das divs */
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; /* alterar horizontal e vertical */
+}
+
+.topo a{
+    color:rgb(253, 254, 255); /* topo a significa que ele vai alterar somente os "A" que no caso são os links */
+    text-decoration: none;
+}
+
+.navbar ul {
+    display: flex;
+
+}
