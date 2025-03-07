@@ -13,12 +13,21 @@ body{
     justify-content: space-between; /* alterar horizontal e vertical */
 }
 
-.topo a{
+.topo a {
     color:rgb(253, 254, 255); /* topo a significa que ele vai alterar somente os "A" que no caso são os links */
     text-decoration: none;
 }
 
 .navbar ul {
     display: flex;
+    list-style: none;
+}
 
+.navbar a {
+    padding: 10px;
+}
+
+.navbar a:hover{
+    background-color: rgb(95, 29, 116);
+    border-radius: 20px;
 }
