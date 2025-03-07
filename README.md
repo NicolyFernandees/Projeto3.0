@@ -1,2 +1,2 @@
 # Projeto3.0
-Conteúdo da aula front-end
+Front-end conteúdo das aulas práticas.
